@@ -1,0 +1,50 @@
+body{
+    background-color: #161A30
+}
+
+.container{
+color: aliceblue;
+padding: 25px;
+display: flex;/*This property is used to define a flex container. The children of this container will become flexible boxes, and you can control the layout and alignment of these children using various flex properties*/
+justify-content: center;/* this centers the content within the container horizontally.*/
+align-items: center;/*center items vertically*/
+
+
+}
+
+
+
+input[type=email],input[type=password]{
+ margin: 10px 0;
+
+ padding: 10px 10px;
+ width: 90%;
+ display: inline-block;
+box-sizing: border-box;
+
+}
+
+button{
+    border: none;
+    color: aliceblue;
+    background-color:#8e95e4;
+    width: 90%;
+cursor: pointer;
+padding: 20px;
+
+
+
+}
+button:hover{
+    opacity: 0.6;
+}
+.image{
+    background-color: rgb(232, 139, 170);
+  
+    height: 60px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
